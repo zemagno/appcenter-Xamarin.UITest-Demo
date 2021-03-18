@@ -15,3 +15,5 @@ eval $App_Center_Test_Command
 
 # End
 echo "end test upload script"
+
+# appcenter test run uitest --app "appcenter-Xamarin.UITest-Demo/appcenter-Xamarin.UITest-Demo-Droid" --devices "appcenter-Xamarin.UITest-Demo/smoke-tests" --app-path pathToFile.apk --test-series "master" --locale "en_US" --build-dir pathToUITestBuildDir
