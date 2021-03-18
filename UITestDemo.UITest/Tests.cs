@@ -32,7 +32,7 @@ namespace UITestDemo.UITest
         }
 
         [Test]
-        public void ClearTextDemo()
+        public void ClearTextDemoTest()
         {
             app.Tap(x => x.Marked("Add"));
             app.Tap(x => x.Text("Item name"));
