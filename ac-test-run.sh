@@ -17,3 +17,7 @@ eval $App_Center_Test_Command
 echo "end test upload script"
 
 # appcenter test run uitest --app "appcenter-Xamarin.UITest-Demo/appcenter-Xamarin.UITest-Demo-Droid" --devices "appcenter-Xamarin.UITest-Demo/smoke-tests" --app-path pathToFile.apk --test-series "master" --locale "en_US" --build-dir pathToUITestBuildDir
+#appcenter test run uitest --app "Xamarin-UI-Demo/Xamarin-UI-Demo-Android" --devices b74efe5a --app-path pathToFile.apk --test-series "master" --locale "en_US" --build-dir pathToUITestBuildDir
+
+
+#appcenter test run uitest --app "Xamarin-UI-Demo/Xamarin-UI-Demo-Android" --devices "Xamarin-UI-Demo/lote01" --app-path pathToFile.apk --test-series "master" --locale "en_US" --build-dir pathToUITestBuildDir
