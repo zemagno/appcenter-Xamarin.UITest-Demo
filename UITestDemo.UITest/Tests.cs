@@ -25,7 +25,7 @@ namespace UITestDemo.UITest
             app = AppInitializer.StartApp(platform);
         }
 
-        [Test]
+        //[Test]
         public void AppLaunches()
         {
             app.Screenshot("First screen.");
