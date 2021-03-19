@@ -8,7 +8,7 @@ using Xamarin.UITest.Queries;
 namespace UITestDemo.UITest
 {
     [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
+    //[TestFixture(Platform.iOS)]
     public class Tests
     {
         IApp app;
@@ -35,13 +35,24 @@ namespace UITestDemo.UITest
         public void ClearTextDemo()
         {
             app.Tap(x => x.Marked("Add"));
+            
             app.Tap(x => x.Text("Item name"));
-
-            app.Screenshot("Before calling ClearText");
+            app.Screenshot("Criar nova tarefa, vamos adicionar um titulo");
             app.ClearText();
-            app.EnterText("The test worked!");
-            app.Screenshot("Text cleared & replaced");
-            app.Back();
+            app.EnterText("Nova tarefa");
+            app.Screenshot("Titulo adicionado");
+
+            app.Tap("description");
+            app.Screenshot("A informação do campo descrição vai ser alterada");
+            app.ClearText();
+            app.EnterText("Alterando a descrição da tarefa");
+            app.Screenshot("Descrição alterada");
+
+            app.Screenshot("Vamos salvar a nova tarefa");
+            app.Tap("Save");
+            app.Screenshot("Nova tarefa criada");
+
+            //app.Back();
         }
     }
 }
