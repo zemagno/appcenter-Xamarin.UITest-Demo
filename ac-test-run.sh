@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-appcenter login ddc676948b06cb201171f26a20fcf19e3d768784
 
 echo "App package is: $APP_PACKAGE"
+
+appcenter login --token ddc676948b06cb201171f26a20fcf19e3d768784
 
 UITEST_PATH='UITestDemo.UITest'
 
