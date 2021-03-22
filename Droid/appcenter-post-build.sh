@@ -29,3 +29,20 @@ echo "Finish Distribute script (ac-distribute.sh)"
 #eval wc -c $APP_PACKAGE
 
 #echo "end post-build script"
+
+
+#!/usr/bin/env bash
+
+# TESTFAIRY_UPLOAD_API_KEY=1234356
+
+# if [[ "$APPCENTER_XCODE_PROJECT" ]]; then
+#   curl https://upload.testfairy.com/api/upload \
+#   -F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
+#   -F "file=@$APPCENTER_OUTPUT_DIRECTORY/example.ipa" 
+# fi
+#
+# if [[ -z "$APPCENTER_XCODE_PROJECT" ]]; then
+#   curl https://upload.testfairy.com/api/upload \
+#   -F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
+#   -F "file=@$APPCENTER_OUTPUT_DIRECTORY/example.apk"
+# fi
