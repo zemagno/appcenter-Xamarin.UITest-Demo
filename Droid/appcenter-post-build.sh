@@ -31,8 +31,6 @@ echo "Finish Distribute script (ac-distribute.sh)"
 #echo "end post-build script"
 
 
-#!/usr/bin/env bash
-
 # TESTFAIRY_UPLOAD_API_KEY=1234356
 
 # if [[ "$APPCENTER_XCODE_PROJECT" ]]; then

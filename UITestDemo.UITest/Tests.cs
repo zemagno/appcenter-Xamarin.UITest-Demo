@@ -50,7 +50,7 @@ namespace UITestDemo.UITest
 
             app.Screenshot("Vamos salvar a nova tarefa");
             app.Tap("Save");
-            app.Screenshot("Nova tarefa criada !!!!");
+            app.Screenshot("Nova tarefa criada !");
 
             //app.Back();
         }
