@@ -11,7 +11,7 @@
 # $DEVICE_SET
 
 #echo "Start Test upload script (ac-test-run.sh)"
-sh ../ac-test-run.sh
+# sh ../ac-test-run.sh
 #echo "Finish Test upload script (ac-test-run.sh)"
 
 echo "Start Distribute script (ac-distribute.sh)"
